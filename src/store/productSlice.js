@@ -39,17 +39,18 @@ export default productSlice.reducer
 
 //creating middlware thunk
 
-export function fetchProducts(){
-    return async function fetchProductsThunk(dispatch,getState){
-        dispatch(setStatus(STATUSES.LOADING));
-        try{
-            const res = await fetch('http://localhost:8000/products');
-            const data = await res.json();
-            dispatch(setProducts(data))
-            dispatch(setStatus(STATUSES.IDLE))
-        }catch(err){
-            console.log(err)
-            dispatch(setStatus(STATUSES.ERROR))
-        }
+export function fetchProducts() {
+  return async function fetchProductsThunk(dispatch, getState) {
+    dispatch(setStatus(STATUSES.LOADING));
+    try {
+      const res = await fetch('//suneelcrestha9.github.io/api/products.json');
+      const data = await res.json();
+      console.log(data); // This logs the fetched data to the console
+      dispatch(setProducts(data));
+      dispatch(setStatus(STATUSES.IDLE));
+    } catch (err) {
+      console.log(err);
+      dispatch(setStatus(STATUSES.ERROR));
     }
+  };
 }
