@@ -1,0 +1,118 @@
+.sale{
+    width: 100%;
+    background-color: rgb(243, 243, 243);
+    margin-top: 5rem;
+}
+.saleTitle{
+    font-size: 2rem; 
+    margin-left: 5rem; 
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+}
+.saleProducts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 1rem 5rem;
+    
+    
+}
+.saleitems{
+    height: 35rem;
+    width: 20rem;
+    margin-right: 3rem;
+    margin-bottom: 2rem;
+   
+    
+}
+.saleimage{
+    height: 25rem;
+    width: 22rem;
+    overflow: hidden;
+}
+
+.saleimage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;    
+}
+.saleimage img:hover {
+    filter: brightness(0.9);
+    transform: scale(1.15)
+}
+.title p{
+    font-size: 1.3rem;
+    text-align: center;
+    margin: 1rem 0rem;
+}
+.price p{
+    font-size: 1.1rem;
+    text-align: center;
+    margin: 1rem 0rem;
+}
+.quantity{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.quantityInput{
+    width: 1.9rem;
+    padding:0.15rem 0.25rem;
+    text-align: center;
+}
+.addTocart {
+    display: flex;
+    justify-content: center;
+    margin: 0.5rem 0rem;
+}
+.addTocart button{
+    border: none;
+    background-color: transparent;
+    font-size: 0.9rem;
+    font-weight: 550;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+.quan button{
+    padding: 0.25rem 0.25rem;
+    width: 1.5rem;
+}
+.message{
+    font-size: 2rem;
+    margin: 2rem ;
+}
+.anotherMessage a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
+    background-color: black;
+    padding: 1rem 2rem;
+}
+.anotherMessage a:hover{
+    color: black;
+    background-color: white;
+}
+.nosaleProducts{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 5rem;
+    gap: 1rem;
+}
+.salesale{
+    margin-top: -4rem;
+    margin-bottom: 10rem;
+}
+.maleTitle{
+    text-align: center;
+}
+.maleMessage{
+    margin-left: 5rem;
+}
+.incart{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+}

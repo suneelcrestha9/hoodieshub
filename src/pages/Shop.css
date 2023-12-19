@@ -1,0 +1,15 @@
+.shopTitle{
+    font-size: 2rem;
+    margin: 2rem 5rem;
+}
+.allproducts{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem 5rem;
+}
+
+.lastfooter{
+    margin-top: 15rem;
+}

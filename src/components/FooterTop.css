@@ -1,0 +1,150 @@
+.footerTop{
+    width: 100%;
+    margin-top: -7rem;
+    position: relative;
+}
+.footerlala{
+    position: absolute;
+    top: 4rem;
+    height: 20rem;
+}
+.footeVid{
+    width: 100%;
+    height: 30rem;
+}
+.footeVid video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    filter: brightness(0.5);
+}
+.footeVid img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    filter: brightness(0.5);
+}
+
+.footerbtn {
+    max-width: 50rem;
+    
+}
+.centrebtn{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.footerbtn button {
+    font-size: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0.99rem 3.5rem;
+    background-color: rgb(219, 219, 219);
+    color: black;
+    border-radius: 0;
+    margin: 0.8rem;
+    border: none;
+    cursor: pointer;
+}
+
+.footerbtn button:hover {
+    background-color: black;
+    color: white;
+}
+
+.footerTitle h1 {
+    
+    font-size: 4rem;
+    top: 7rem;
+    margin-bottom: 2rem;
+    left: 25%;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.footerDis{
+    text-align: center;
+}
+
+.footerDis p {
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    text-align: center;
+    color: white;
+    margin: 1rem 5rem;
+}
+.footerabout{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 10rem;
+    margin: 0rem 5rem;
+   
+}
+.icon{
+    width: 2rem;
+    height: 2rem;
+}
+.icon img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+.line{
+    content: '';
+    width: 80%;
+    height: 0.01rem;
+    background-color: black;
+    margin-left: 10rem;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    gap: 0.85rem;
+    align-items: center;
+}
+.footerMain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 90%;
+    margin-top: 5rem;
+    margin-left: 2rem;
+}
+.footerName{
+    width: 15rem;
+}
+.footerMain h3{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    margin-left: -0.4rem;
+    
+}
+.footerMain ul li a{
+    text-decoration: none;
+    color: black;
+    line-height: 2rem;
+}
+.footerMain ul li {
+    list-style: none;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    gap: 0.8rem;
+    margin: 1rem 0rem;
+}
+.slogo{
+    width: 1.3rem;
+    height: 1.3rem;
+}
+.slogo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}

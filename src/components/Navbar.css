@@ -1,0 +1,89 @@
+nav{
+    position: sticky;
+    z-index: 5;
+    top: 0;
+    background-color: white;
+}
+.logo ul li a {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 2.2rem;
+    margin-top: 1rem;
+    text-decoration: none;
+    color: black;
+    margin-right: 2.5rem;
+   
+    
+    
+}
+.logo ul li {
+    list-style: none;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0rem 5rem;
+    height: 5.5rem;
+    align-items: center;
+}
+.navbarleft {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navlinks{
+
+    margin-left: 1rem;
+}
+.navlinks ul li{
+    display: inline-block;
+    margin-right: 1.5rem;
+    margin-top: 0.6rem;
+}
+.navlinks ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.4rem;
+}
+.navlinks ul li{
+    list-style: none;
+}
+.cart{
+    margin-right: 1.5rem ;
+}
+.cart img{
+    width: 1.9rem;
+    margin-top: 0.1rem;
+    
+}
+.cart p{
+    color: white;
+    background-color: red;
+    width: 1rem;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    right: 6rem;
+    top: 1.3rem; 
+}
+
+.navlinks ul li a:hover,
+.navlinks ul li a.active{
+    color: rgb(87, 87, 87);
+}
+
+.navlinks ul li a::after {
+    content: '';
+    display: block;
+    width: 0%;
+    height: 0.15rem;
+    background: linear-gradient(to right, rgb(34, 128, 156), rgb(107, 107, 107));
+}
+
+.navlinks ul li a:hover:after,
+.navlinks ul li a.active::after {
+    width: 100%;
+    transition: .2s;
+}

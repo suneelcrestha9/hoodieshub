@@ -1,0 +1,128 @@
+{
+    "products":[
+    {
+        "title": "The End Hoodie",
+        "image": "https://i.pinimg.com/564x/6f/cd/a3/6fcda3f38b426b9cef49767a18b9e3b5.jpg",
+        "price": 2100,
+        "categories":"male",
+        "discription":"This The Box Hood is a winter hoodie with fleench inside .They are manufacture in Nepal and the fabric is from Korea .This hoodie is very warm and recommended for you this winter to keep you warm ",
+        "sale":"true",
+        "quantity":1,
+        "id": 1
+    },
+    {
+        "title": "Love Hoodie",
+        "image": "https://i.pinimg.com/564x/92/bd/9a/92bd9a02a2bcb9321370fd94e5558ee2.jpg",
+        "price": 2000,
+        "categories":"female",
+        "discription":"This The Box Hood is a winter hoodie with fleench inside .They are manufacture in Nepal and the fabric is from Korea .This hoodie is very warm and recommended for you this winter to keep you warm ",
+        "sale":"false",
+        "quantity":1,
+        "id": 2
+    },
+    {
+        "title": "The Green Hood",
+        "image": "https://i.pinimg.com/736x/e1/7a/92/e17a9234c11115dd406c0884ed0b94ac.jpg",
+        "price": 1900,
+        "categories":"male",
+        "discription":"This The Box Hood is a summer hoodie with fleench inside .They are manufacture in Nepal and the fabric is from Korea .This hoodie is very warm and recommended for you this summer to keep you warm ",
+        "sale":"false",
+        "quantity":1,
+        "id": 3
+    },
+    {
+        "title": "Thermal Lined Hoodie",
+        "image": "https://i.pinimg.com/564x/6f/12/3c/6f123c6b317e6dca4d0b4202cf328a22.jpg",
+        "price": 1700,
+        "categories":"male",
+        "discription":"This The Box Hood is a summer hoodie with fleench inside .They are manufacture in Nepal and the fabric is from Korea .This hoodie is very warm and recommended for you this summer to keep you warm ",
+        "sale":"false",
+        "quantity":1,
+        "id": 4
+    },
+    {
+        "title": "The Gray Beank",
+        "image": "https://i.pinimg.com/564x/56/ec/5a/56ec5ae6fa5b8ede8cbd5e74fd61930f.jpg",
+        "price": 3000,
+        "categories":"female",
+        "discription":"This The Box Hood is a summer hoodie with fleench inside .They are manufacture in Nepal and the fabric is from Korea .This hoodie is very warm and recommended for you this summer to keep you warm ",
+        "sale":"true",
+        "quantity":1,
+        "id": 5
+    },
+    {
+        "title": "Men Letter Graphic",
+        "image": "https://i.pinimg.com/564x/52/f5/02/52f502f1da5fc6755c2d300b6d45e6ce.jpg",
+        "price": 1900,
+        "categories":"male",
+        "discription":"This The Box Hood is a winter hoodie with fleench inside .They are manufacture in Nepal and the fabric is from Korea .This hoodie is very warm and recommended for you this winter to keep you warm ",
+        "sale":"false",
+        "quantity":1,
+        "id": 6
+    },
+    {
+        "title": "The Dark Archer",
+        "image": "https://i.pinimg.com/564x/a1/86/83/a18683de4e1728082a91ae706b5d76ab.jpg",
+        "price": 1600,
+        "categories":"male",
+        "discription":"This The Box Hood is a winter hoodie with fleench inside .They are manufacture in Nepal and the fabric is from Korea .This hoodie is very warm and recommended for you this winter to keep you warm ",
+        "sale":"true",
+        "quantity":1,
+        "colors":["black","blue","white"],
+        "id": 7
+    },
+    {
+        "title": "BM ButterFly Hoodie",
+        "image": "https://i.pinimg.com/564x/12/4c/ad/124cad08778d3df2920f3e968ea978c8.jpg",
+        "price": 1300,
+        "categories":"female",
+        "discription":"This The Box Hood is a winter hoodie with fleench inside .They are manufacture in Nepal and the fabric is from Korea .This hoodie is very warm and recommended for you this winter to keep you warm ",
+        "sale":"true",
+        "quantity":1,
+        "id": 8
+    },
+    {
+        "title": "Male Solid Gray",
+        "image": "https://i.pinimg.com/564x/28/8a/fa/288afa95d3b8b35dc41ced14763b8332.jpg",
+        "price": 1800,
+        "categories":"male",
+        "discription":"This The Box Hood is a summer hoodie with fleench inside .They are manufacture in Nepal and the fabric is from Korea .This hoodie is very warm and recommended for you this summer to keep you warm ",
+        "sale":"false",
+        "quantity":1,
+        "id": 9
+    },
+    {
+        "title": "Guys Cartoon Graphic",
+        "image": "https://i.pinimg.com/564x/b5/bb/1a/b5bb1a100e9c81db943f8e3f5626132e.jpg",
+        "price": 2200,
+        "categories":"male",
+        "discription":"This The Box Hood is a summer hoodie with fleench inside .They are manufacture in Nepal and the fabric is from Korea .This hoodie is very warm and recommended for you this summer to keep you warm ",
+        "sale":"false",
+        "quantity":1,
+        "id": 10
+    },
+    {
+        "title": "Female Pink",
+        "image": "https://i.pinimg.com/564x/01/16/85/0116856fffb054dcf3a88fde643c26c7.jpg",
+        "price": 1700,
+        "categories":"female",
+        "discription":"This The Box Hood is a summer hoodie with fleench inside .They are manufacture in Nepal and the fabric is from Korea .This hoodie is very warm and recommended for you this summer to keep you warm ",
+        "sale":"true",
+        "quantity":1,
+        "id": 11
+    },
+    {
+        "title": "Men Solid Letter",
+        "image": "https://i.pinimg.com/564x/0b/76/94/0b7694b633f70f1285a210f18fc72084.jpg",
+        "price": 2500,
+        "categories":"male",
+        "discription":"This The Box Hood is a winter hoodie with fleench inside .They are manufacture in Nepal and the fabric is from Korea .This hoodie is very warm and recommended for you this winter to keep you warm ",
+        "sale":"false",
+        "quantity":1,
+        "id": 12
+    }
+    ]
+}
+
+
+
