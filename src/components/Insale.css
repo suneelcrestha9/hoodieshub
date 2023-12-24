@@ -127,12 +127,12 @@
     margin: 1rem 10%;
 }
 }
-@media screen and (max-width:376px) {
+@media screen and (max-width:386px) {
     .saleTitle {
         margin-left: 0.5rem;
     }
 
     .saleProducts {
-        margin: 1rem 0.5rem;
+        margin: 1rem 0.63rem;
     }
 }
