@@ -118,4 +118,58 @@ section{
     line-height: 1.5rem;
     text-align: center;
     margin: 0rem 2rem;
+    
+}
+@media screen and (max-width:445px) {
+    .heading{
+    font-size: 3rem;
+    left: 0rem;  
+    align-items: center;
+    left: 0.5rem;
+    }
+    .discription p{
+    left: 0rem;
+    font-size: 1rem;
+    left: 0.5rem;
+}
+.buttons {
+    left: 1rem;
+}
+
+.buttons button {
+    font-size: 0.7rem;
+    padding: 0.77rem 3rem;
+}
+.aboutUs {
+    gap: 0.5rem;
+}
+.aboutImage {
+    max-width: 20rem;
+    height: 30rem;
+    margin: 0.5rem
+}
+.aboutDiscription {
+    margin: 0.5rem;
+}
+.aboutTitle {
+    font-size: 0.9rem;
+    margin: 0.5rem;
+}
+.aboutdis p {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    margin-right: 0.5rem;
+
+}
+.expheading {
+    font-size: 1.1rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.experienceDis p {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+
+}
 }

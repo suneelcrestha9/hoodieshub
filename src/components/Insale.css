@@ -116,3 +116,23 @@
     font-size: 1.5rem;
     margin-top: 3rem;
 }
+@media screen and (max-width:445px) {
+    .saleTitle{
+    margin-left: 0.5rem; 
+}
+.saleProducts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 1rem 10%;
+}
+}
+@media screen and (max-width:376px) {
+    .saleTitle {
+        margin-left: 0.5rem;
+    }
+
+    .saleProducts {
+        margin: 1rem 0.5rem;
+    }
+}

@@ -87,3 +87,185 @@ nav{
     width: 100%;
     transition: .2s;
 }
+
+/* hamburger */
+
+.ham{
+    width: 2rem;
+    height: 0.27rem;
+    margin-bottom: 0.2rem;
+    content: '';
+    background-color: black;
+    display: block;
+    border-radius: 5rem;
+    cursor: pointer;
+    display: none;
+}
+
+@media screen and (max-width: 782px) {
+    nav {
+        position: sticky;
+        z-index: 5;
+    }
+        .logo ul li a {
+
+            font-size: 2rem;
+            margin-top: 1rem;
+            margin-right: 2.5rem;
+    
+        }
+
+    
+        .navbar {
+            margin: 0rem 1rem;
+            height: 4rem;
+        }
+    
+        .navbarleft {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    
+        .navlinks ul li {
+            margin-top: 0.7rem;
+        }
+    
+        .navlinks ul li a {
+            font-size: 1rem;
+        }
+
+        .cart {
+            margin-right: 1rem;
+        }
+    
+        .cart img {
+            width: 1.5rem;
+            margin-top: 0.1rem;
+        }
+        .cart p {
+            right: 1.6rem;
+            top: 0.4rem;
+        }
+}
+
+
+
+
+
+@media screen and (max-width: 562px) {
+    nav {
+        position: sticky;
+        z-index: 5;
+        top: 0;
+    }
+
+    .logo ul li a {
+        font-size: 1.5rem;
+        margin-top: 1rem;
+    }
+    .navbar {
+        height: 3rem;
+    }
+
+    .navlinks ul li {
+        margin-top: 0.4rem;
+    }
+
+    .navlinks ul li a {
+        font-size: 1rem;
+    }
+
+    .cart {
+        margin-right: 1rem;
+    }
+
+    .cart img {
+        width: 1.3rem;
+        margin-top: 0.1rem;
+    }
+
+    .cart p {
+        background-color: transparent;
+        right: 1.6rem;
+        top: 0.4rem;
+        color: red;
+    }
+}
+
+
+
+
+@media screen and (max-width: 512px) {
+    nav {
+        position: relative;
+        z-index: 5;
+    }
+    .hamburger{
+        position: absolute;
+        top: 0.9rem;
+        right: 1.5rem;
+    }
+    .ham{
+        display: block;
+    }
+
+    .logo ul li a {
+        font-size: 1.5rem;
+        margin-top: 1rem;
+    }
+
+    .navbar {
+        height: 3rem;
+    }
+    .navbarleft{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .navlinks{
+        position: absolute;
+        top: 3rem;
+        left: 0;
+        width: 100%;
+        display: none;
+        margin-left: 0;
+        text-align: center;
+        background-color: rgba(200, 200, 200,0.5);
+        border: none;
+    }
+   
+    .navlinks ul li {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .navlinks ul li a {
+        font-size: 1rem;
+        padding: 0.5rem 0rem ;
+        max-width: 4rem;
+        
+    }
+
+    .cart {
+        margin-right: 4rem;
+    }
+
+    .cart img {
+        width: 1.5rem;
+        margin-top: 0.1rem;
+    }
+
+    .cart p {
+        background-color: transparent;
+        right: 4.6rem;
+        top: 0.4rem;
+        color: red;
+    }
+    .show{
+        display: block;
+    }
+   
+}

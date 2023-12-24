@@ -1,18 +1,28 @@
-import React from 'react'
+import React, { useState } from 'react'
 import {  NavLink} from 'react-router-dom'
 import './Navbar.css'
 import { useSelector } from 'react-redux'
 export default function Navbar() {
     const item = useSelector((state)=>state.cart.items)
     const itemIncart = item.reduce((total,item)=>total + item.quantity ,0)
+    const [isactive,setIsactive]=useState(false)
+
+    const handelnav=()=>{
+        setIsactive(!isactive)
+    }
   return (
     <nav>
-        <div className="navbar">
+        <div className="hamburger" onClick={handelnav}>
+            <div className="ham"></div>
+            <div className="ham"></div>
+            <div className="ham"></div>
+        </div>
+        <div className="navbar" >
             <div className="navbarleft">
                 <div className="logo">
                     <ul><li><NavLink to="/">HOODIESHUB</NavLink></li></ul>
                 </div>
-                <div className="navlinks">
+                <div className={`navlinks ${isactive ? 'show':''}`}>
                     <ul>
                         <li><NavLink to="/shop">Shop</NavLink></li>
                         <li><NavLink to="/sale">Sale</NavLink></li>

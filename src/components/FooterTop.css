@@ -148,3 +148,67 @@
     object-fit: cover;
     overflow: hidden;
 }
+@media screen and (max-width:445px) {
+    .footerDis p {
+    font-size: 1rem;
+    margin: 1rem 0.5rem 0 0.5rem;
+}
+.footerTitle h1 {
+    top: 0rem;
+}
+.footerlala{
+    top: 1rem;
+}
+.centrebtn {
+    margin-top: 0.5rem;
+}
+
+.footerbtn button {
+    font-size: 0.9rem;
+    padding: 0.77rem 3rem;
+
+}
+.footerabout {
+    height: 10rem;
+    margin: 0rem ;
+
+}
+.icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: -1rem;
+}
+.footerMain h3 {
+    font-size: 1rem;
+}
+.social {
+    gap: 0.6rem;
+
+}
+.line {
+    width: 80%;
+    margin-left: 8%;
+}
+.footer {
+    margin-top: 1.5rem;
+    flex-direction: column;
+    gap: 0.85rem;
+}
+.footerMain {
+    gap: 0.5rem;
+    margin-top: 2rem;
+    margin-left: 0rem;
+}
+.footerName {
+    width: 12rem;
+}
+.footerMain h3 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0rem;
+
+}
+.footerDis p{
+    margin-top: 0rem;
+}
+}
