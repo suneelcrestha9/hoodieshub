@@ -24,10 +24,10 @@ export default function Navbar() {
                 </div>
                 <div className={`navlinks ${isactive ? 'show':''}`}>
                     <ul>
-                        <li><NavLink to="/shop">Shop</NavLink></li>
-                        <li><NavLink to="/sale">Sale</NavLink></li>
-                        <li><NavLink to="/male">Male</NavLink></li>
-                        <li><NavLink to="/female">Female</NavLink></li>
+                        <li onClick={handelnav}><NavLink to="/shop">Shop</NavLink></li>
+                        <li onClick={handelnav}><NavLink to="/sale">Sale</NavLink></li>
+                        <li onClick={handelnav}><NavLink to="/male">Male</NavLink></li>
+                        <li onClick={handelnav}><NavLink to="/female">Female</NavLink></li>
                     </ul>
                 </div>
             </div>
