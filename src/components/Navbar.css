@@ -226,13 +226,15 @@ nav{
     .navlinks{
         position: absolute;
         top: 3rem;
-        left: 0;
         width: 100%;
-        display: none;
+        left: -100%;
+        height: 40vh;
         margin-left: 0;
         text-align: center;
-        background-color: rgba(200, 200, 200,0.5);
         border: none;
+        transition: ease-in-out;
+        transition: .3s;
+        background-color: rgba(0, 0, 0, 0.8);
     }
    
     .navlinks ul li {
@@ -243,10 +245,10 @@ nav{
     }
 
     .navlinks ul li a {
-        font-size: 1rem;
+        font-size: 2rem;
         padding: 0.5rem 0rem ;
         max-width: 4rem;
-        
+        color: white;   
     }
 
     .cart {
@@ -265,7 +267,7 @@ nav{
         color: red;
     }
     .show{
-        display: block;
+        left: 0%;
     }
    
 }
