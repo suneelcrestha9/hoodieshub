@@ -10,18 +10,20 @@ export default function Main() {
             <div className="backgroundImage">
                 <img src="./images/main.jpg" alt="" />
             </div>
+           <div className="backBlack">
             <div className="heading">
-                <h1>Experience</h1>
-                <h1>Comfort &</h1>
-                <h1>Style</h1>
-            </div>
-            <div className="discription">
-                <p>Our online store offers a wide selection of premium quality hoodies that are designed to keep you comfortable and stylish. Browse our collection and find the perfect hoodie that suits your style and needs.</p>
-            </div>
-            <div className="buttons">
-                <Link to="/male"><button>Male</button></Link>
-                <Link to="/female"><button>Female</button></Link>
-            </div>
+                    <h1>Experience</h1>
+                    <h1>Comfort &</h1>
+                    <h1>Style</h1>
+                </div>
+                <div className="discription">
+                    <p>Our online store offers a wide selection of premium quality hoodies that are designed to keep you comfortable and stylish. Browse our collection and find the perfect hoodie that suits your style and needs.</p>
+                </div>
+                <div className="buttons">
+                    <Link to="/male"><button>Male</button></Link>
+                    <Link to="/female"><button>Female</button></Link>
+                </div>
+           </div>
         </div>
     </section>
 
