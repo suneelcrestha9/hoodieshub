@@ -60,12 +60,13 @@ export default function Cart() {
               <div className="ppp">
                 <p>Price</p>
               </div>
-              <div className="qqq">
+              <div className="qqq qua">
                 <p>Quantity</p>
               </div>
               <div className="sub">
                 <p>Subtotal</p>
               </div>
+            
             </div>
 
 
@@ -84,11 +85,11 @@ export default function Cart() {
                                     <p>${item.price}</p>
                                 </div>
                                 <div className="quantity">
-                                    <div className="quan"><button onClick={()=>decrease(item.id)}><h5>-</h5></button></div>
-                                    <div className="">
+                                    <div className="quan   dec"><button onClick={()=>decrease(item.id)}><h5>-</h5></button></div>
+                                    <div className=" qu">
                                         <input type="text" value={item.quantity} readOnly className='quantityInput'/>
                                     </div>
-                                    <div className="quan"><button onClick={()=>increase(item.id)}><h5>+</h5></button></div>
+                                    <div className="quan inc"><button onClick={()=>increase(item.id)}><h5>+</h5></button></div>
                                 </div>
                                 <div className="subtotal">
                                   <p> ${item.price * item.quantity}</p>

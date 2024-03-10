@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, {  useState } from 'react'
 import {  NavLink} from 'react-router-dom'
 import './Navbar.css'
 import { useSelector } from 'react-redux'
@@ -6,10 +6,12 @@ export default function Navbar() {
     const item = useSelector((state)=>state.cart.items)
     const itemIncart = item.reduce((total,item)=>total + item.quantity ,0)
     const [isactive,setIsactive]=useState(false)
-
-    const handelnav=()=>{
+      
+      const handelnav=()=>{
         setIsactive(!isactive)
-    }
+        document.body.style.overflow = isactive ? 'auto' : 'hidden';
+        }
+    
   return (
     <nav>
         <div className="hamburger" onClick={handelnav}>
@@ -22,7 +24,7 @@ export default function Navbar() {
                 <div className="logo">
                     <ul><li><NavLink to="/">HOODIESHUB</NavLink></li></ul>
                 </div>
-                <div className={`navlinks ${isactive ? 'show':''}`}>
+                <div className={`navlinks ${isactive ? 'show':''}`} >
                     <ul>
                         <li onClick={handelnav}><NavLink to="/shop">Shop</NavLink></li>
                         <li onClick={handelnav}><NavLink to="/sale">Sale</NavLink></li>

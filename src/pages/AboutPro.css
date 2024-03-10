@@ -59,3 +59,160 @@
     cursor: pointer;
 
 }
+
+
+@media screen and (max-width:1025px) {
+    .productInfo{
+        width: 90%;
+        height: 35rem;
+        display: flex;
+        margin:3rem 5rem;
+    }
+    .proImage{
+        width: clamp(300px, 50%, 600px);
+        height: 30rem;
+    }
+    .infoProduct{
+        width: 90%;
+        margin-top: 2rem;
+    }
+    .infoTitle{
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    .infoDis{
+        font-size: 1.2rem;
+        word-wrap: normal;
+        max-width: 90%;
+        margin:  2rem;
+        text-align: center;
+    }
+    .infoPrice{
+        font-size: 1.2rem;
+        margin:  2rem ;
+        text-align: center;
+    }
+
+}
+
+
+
+
+@media screen and (max-width:769px) {
+    .productInfo{
+        width: 90%;
+        height: 35rem;
+        display: flex;
+        margin:3rem 5rem;
+    }
+    .proImage{
+        width: clamp(300px, 50%, 600px);
+        height: 30rem;
+    }
+    .infoProduct{
+        width: 90%;
+        margin-top: 5rem;
+    }
+    .infoTitle{
+        font-size: 1.4rem;
+        text-align: center;
+    }
+    .infoDis{
+        font-size: 0.9rem;
+        word-wrap: normal;
+        max-width: 90%;
+        margin:  1rem;
+        text-align: center;
+    }
+    .infoPrice{
+        font-size: 0.8rem;
+        margin:  2rem ;
+        text-align: center;
+    }
+    .addTocartInfo button{
+        color: white;
+        background-color: black;
+        font-size: 1rem;
+        padding: 0.7rem 2rem;
+        margin: 1rem;
+        cursor: pointer;
+    
+    }
+
+}
+
+
+@media screen and (max-width:426px) {
+    .productInfo{
+        width: 100%;
+        height: 35rem;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        margin-top: 5rem;
+    }
+    .proImage{
+        width: 20rem;
+        height: 30rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .proImage img{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        object-fit: contain;
+       
+    }
+    .infoProduct{
+        width: 100%;
+        margin-top: 4rem;
+    }
+    .infoTitle{
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    .infoDis{
+        font-size: 1.3rem;
+        word-wrap: normal;
+        max-width: 90%;
+        margin:  2rem;
+        text-align: center;
+    }
+    .infoPrice{
+        font-size: 1.3rem;
+        margin:  2rem ;
+        text-align: center;
+    }
+    .quantitytity{
+        margin:  2rem ;
+    }
+    .quantity input{
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+    }
+    .quantity button {
+        font-size: 1.2rem;
+        padding: 0.5rem 1rem;
+    }
+    .addTocartInfo{
+        display: flex;
+        justify-content: center;
+    }
+    .addTocartInfo button{
+        color: white;
+        background-color: black;
+        font-size: 1.2rem;
+        padding: 1rem 4rem;
+        margin: 2rem;
+        cursor: pointer;
+    
+    }
+    .sen{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: -5rem;
+    }
+}

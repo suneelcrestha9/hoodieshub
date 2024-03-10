@@ -45,7 +45,6 @@ export function fetchProducts() {
     try {
       const res = await fetch('//suneelcrestha9.github.io/api/products.json');
       const data = await res.json();
-      console.log(data); // This logs the fetched data to the console
       dispatch(setProducts(data));
       dispatch(setStatus(STATUSES.IDLE));
     } catch (err) {

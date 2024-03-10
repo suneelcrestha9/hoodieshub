@@ -12,8 +12,8 @@ section{
     height: 55.5rem;
     width: 100%;
     background: linear-gradient(to right,
-    rgba(0,0,0,1) 10%,
-    rgba(0,0,0,.7) 25%,
+    rgba(0,0,0,1) 15%,
+    rgba(0,0,0,.7) 30%,
     rgba(0,0,0,.4) 75%,
     rgba(0,0,0,0) 100%);
 }
@@ -24,7 +24,7 @@ section{
     height: 100%;
     object-fit: cover;
     overflow: hidden;
-    filter: brightness(0.65);
+    
 }
 .heading{
     font-size: 3.5rem;
@@ -144,7 +144,7 @@ section{
     left: 0.5rem;
 }
 .buttons {
-    left: 2rem;
+    left: 0rem;
 }
 
 .buttons button {

@@ -43,11 +43,13 @@ export default function AboutPro() {
   return (
     <>
     <div className="productInfo">
+    <div className="sen">
       <div className="proImage">
-        <img src={item.image} alt="" />
+          <img src={item.image} alt="" />
+        </div>
       </div>
       <div className="infoProduct">
-          <div className="infoTitle">
+          <div className="infoTitle" key={item.id}>
             <h2>{item.title}</h2>
           </div>
           <div className="infoDis">
